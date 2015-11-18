@@ -980,12 +980,12 @@ public class Carousel extends CarouselSpinner implements GestureDetector.OnGestu
 		
 	}
 		
-//	/***
-//	 * 水平圆形滚动
-//	 * @param child
-//	 * @param diameter
-//	 * @param angleOffset
-//	 */
+	/***
+	 * 水平圆形滚动
+	 * @param child
+	 * @param diameter
+	 * @param angleOffset
+	 */
 //    private void Calculate3DPosition(CarouselItem child, int diameter, float angleOffset){
 //    	
 //    	angleOffset = angleOffset * (float)(Math.PI/180.0f);    	
