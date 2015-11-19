@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 	<array name="entries">
-		<item>@drawable/cat</item>		
-		<item>@drawable/hippo</item> 		
-		<item>@drawable/monkey</item>		
-		<item>@drawable/mouse</item>
-		<item>@drawable/panda</item>		
-		<item>@drawable/rabbit</item>						
-	</array>	
+		<item>@drawable/test</item>		
+		<item>@drawable/test1</item> 		
+		<item>@drawable/test</item>		
+		<item>@drawable/test1</item>
+		<item>@drawable/test</item>		
+		<item>@drawable/test1</item>						
+	</array>
 	<array name="names">
 	    <item>The cat</item>
 	    <item>The hippo</item>

@@ -5,10 +5,15 @@ import com.carouseldemo.controls.CarouselAdapter;
 import com.carouseldemo.controls.CarouselAdapter.OnItemClickListener;
 import com.carouseldemo.controls.CarouselAdapter.OnItemSelectedListener;
 import com.carouseldemo.controls.CarouselItem;
+import com.carouseldemo.controls.CarouselImageAdapter;
 
 import android.app.Activity;
+import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,6 +24,11 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         Carousel carousel = (Carousel)findViewById(R.id.carousel);
+        TypedArray images = getResources().obtainTypedArray(R.array.entries);
+        
+        CarouselImageAdapter imageAdapter=new CarouselImageAdapter(this, images);
+        carousel.setCarouselAdapter(imageAdapter);
+        
         carousel.setOnItemClickListener(new OnItemClickListener(){
 
 			public void onItemClick(CarouselAdapter<?> parent, View view,

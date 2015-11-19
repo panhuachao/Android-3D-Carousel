@@ -45,7 +45,7 @@ public class CarouselItem extends FrameLayout
 		mImage = (ImageView)itemTemplate.findViewById(R.id.item_image);
 		mText = (TextView)itemTemplate.findViewById(R.id.item_text);
 				
-	}	
+	}
 	
 	public String getName(){
 		return mText.getText().toString();

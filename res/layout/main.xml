@@ -25,13 +25,16 @@
 	    android:layout_height="fill_parent"
 	    android:background="#ffffff"
     	>
+    	
+		    <!-- 
+			         如果没设置items和names，则需要设置setCarouselAdapter
+			    pj:Items="@array/entries"
+			    pj:Names="@array/names"  -->
 			<com.carouseldemo.controls.Carousel
 			    android:layout_width="fill_parent"
 			    android:layout_height="fill_parent"	
 			    android:id="@+id/carousel"  
-			    pj:UseReflection="true"
-			    pj:Items="@array/entries"
-			    pj:Names="@array/names" 
+			    pj:UseReflection="false"
 			    pj:SelectedItem="0"
 			    android:animationDuration="200"
 			/>
