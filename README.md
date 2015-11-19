@@ -62,3 +62,5 @@ Android-3D-Carousel，3D滚动特效，参考网址：http://www.codeproject.com
 效果如：
 
 ![](./vertical.gif)
+
+![](./vertical_photo.gif)
